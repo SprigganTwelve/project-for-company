@@ -38,12 +38,12 @@
 .container .content {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   color: white;
   width: 100%;
   position: relative;
   top: -30px;
+  flex: 5;
 }
 
 .container .content h1 {
@@ -75,27 +75,52 @@
 }
 
 
-.container .content .contacts {
-  
+.container .contacts {
+  display: flex;
+  padding: 10px 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background: var(--yellow);
+  flex: 1;
+  font-size: medium;
 }
 
-/*
-hr {
-    border: none;
-    border-top: 3px double var(--white);
-    overflow: visible;
-    text-align: center;
-    height: 5px;
-    width: 100%;
+
+.container .contacts .details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.weather hr.or::after {
-    background-color: var(--main-color);
-    content: 'OR';
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
-}*/
+.container .contacts .details img {
+  margin-top: 10px;
+}
+
+.container .contacts .details .copyright {
+  font-size: small;
+}
+
+.container .contacts .details .social-networks {
+  font-size: 50px !important;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  background-color: black;
+  color: white;
+}
 
 
 
