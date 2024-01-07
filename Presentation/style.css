@@ -5,11 +5,9 @@
 .container {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  scroll-snap-align: center;
 }
 .container div {
   display: flex;
-  scroll-snap-type: y mandatory;
   height: 100vh;
   position: static;
   right: 0;
@@ -24,6 +22,11 @@
   justify-content: flex-end;
   background: url(../resources/wp3366872.jpg);
   background-size: cover;
+  scroll-snap-align: start;
+}
+
+#first > img {
+  height: 710px;
 }
 
 #second {
@@ -33,6 +36,7 @@
   justify-content: flex-end;
   background: url(../resources/planetConnect.jpg);
   background-size: cover;
+  scroll-snap-align: start;
 }
 #second > div {
   border-radius: 10%;
@@ -59,6 +63,7 @@ strong {
   align-items: center;
   background: url(../resources/headersatellites-2880x1440-1.jpg);
   background-size: cover;
+  scroll-snap-align: start;
 }
 #third div {
   height: 500px;
@@ -85,8 +90,9 @@ strong {
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
-  background: url(../resources/concept-globe-reseau_98292-5202.webp);
+  background: url(../resources/wp3366872.jpg);
   background-size: cover;
+  scroll-snap-align: start;
 }
 #fourth div {
   height: 500px;

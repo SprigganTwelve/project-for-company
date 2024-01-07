@@ -74,7 +74,6 @@
   color: black;
 }
 
-
 .container .contacts {
   display: flex;
   padding: 10px 0;
@@ -86,7 +85,6 @@
   flex: 1;
   font-size: medium;
 }
-
 
 .container .contacts .details {
   display: flex;
@@ -122,11 +120,8 @@
   color: white;
 }
 
-
-
 /* ================================================================= */
 
-
 :root {
-  --yellow : #fffb05;
+  --yellow: #fffb05;
 }

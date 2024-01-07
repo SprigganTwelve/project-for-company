@@ -20,8 +20,8 @@
         <div class="navbar">
             <img src="../resources/logo_v1.svg" alt="logo ver.1" class="logo" height="150px">
             <div class="right">
-                <div><a href="#">Créer un compte</a></div>
-                <div><a href="#">Se connecter</a></div>
+                <div><a href="../NewAccount/CreateAccount.php">Créer un compte</a></div>
+                <div><a href="../Connexion/ConnectBase.php">Se connecter</a></div>
             </div>
         </div>
         <div class="content">
@@ -30,8 +30,8 @@
                 <p>L'internet sans limite depuis l'univers</p>
             </div>
             <div class="options">
-                <button type="button"> Rejoindre </button>
-                <button type="button"> En savoir plus </button>
+                <button id="join" type="button"> Rejoindre </button>
+                <button id="more" type="button"> En savoir plus </button>
             </div>
         </div>
         <div class="contacts">
@@ -50,6 +50,7 @@
 
         </div>
     </div>
+    <script src="changeLocation.js"></script>
 
 </body>
 

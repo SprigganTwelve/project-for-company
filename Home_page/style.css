@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: #2c4474;
 }
 #setimage {
   display: flex;
@@ -53,11 +52,10 @@ body {
 }
 */
 .container {
-  border: 2px solid red;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
   color: white;
   background-attachment: static;
@@ -68,15 +66,14 @@ body {
 }
 
 .slider {
-  border: 3px solid hotpink;
+  border-right: 5px solid #1a1c29;
   height: 100%;
   position: relative;
   transition: all 1s;
-  background: #2c4474;
+  background: transparent;
 }
 
 .slider * {
-  border: 3px solid gold;
   transform: translate(-100%);
 }
 
@@ -128,7 +125,9 @@ body {
   right: 0;
   opacity: 40%;
   border-radius: 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#currentOption span {
+  font-size: 90px;
 }
 
 section {
@@ -144,27 +143,12 @@ section:hover {
   color: whitesmoke;
 }
 
-span {
-  border: 2px solid green;
-}
-
 .Accueil {
-  border: 2px solid purple;
   width: 100%;
   position: relative;
   font-size: 23px;
-
   background-size: cover;
   height: 100vh;
-  position: fixed;
-  float: center;
-}
-
-.annexe {
-  border: 2px solid orange;
-  display: flex;
-  position: absolute;
-  bottom: 0px;
 }
 
 h1 {
@@ -172,18 +156,6 @@ h1 {
   font-size: 37px;
   position: relative;
   top: 0px;
-}
-
-#recentActivity {
-  border-radius: 10%;
-  border: 3px solid black;
-  padding: 30px;
-}
-
-#actuality {
-  border-radius: 10%;
-  padding: 30px;
-  border: 3px solid black;
 }
 
 #menu {
@@ -195,16 +167,26 @@ h1 {
 }
 
 .componement {
-  background-size: cover;
-  height: 100%;
-  font-size: 23px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  bottom: 30%;
+  text-align: center;
+  margin-left: 40px;
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
 }
-#last {
-  border: 3px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 120px;
-  background: black;
+.componement > div > img {
+  height: 200px;
+}
+.moveImage {
+  position: absolute;
+}
+
+img {
+  height: 100vh;
+  opacity: 0.97;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }

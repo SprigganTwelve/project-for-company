@@ -20,10 +20,17 @@ $id = $_SESSION['user_id'];
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Homepage</title>
   </head>
   <body>
-    <div class="loader"></div>
+
+    <div class="moveImage">
+      
+
+        <img src="../resources/headersatellites-2880x1440-1.jpg">
+   
+    </div>
     <div class="container">
       <div class="slider">
           <div id="setimage">
@@ -38,31 +45,30 @@ echo '<div style="background:url(image/'.$imageName.'); background-size:cover;">
           <section>Communauté</section>
           <section>Deconnexion</section>
       </div>
-      <div id="moveImage">
-        <img src="LINK_INFINIT.png" >
-        <img >
-        <img >
-        <img >
+  
+      
           <div class="Accueil">
             <div class="head">
                 <span id= 'menu' class="material-symbols-outlined">
                   menu
                 </span>
-                <h1><i>INFINTY LINK</i></h1>
-                <span id="currentOption">Acceuil</span>
+                <span id="currentOption">
+                <span class="material-symbols-outlined">
+home
+</span> 
+                </span>
+
             </div>
+            
             <div class="componement">
-                <hr>
+                <div><img src="../resources/logo_v1.svg" alt="logo ver.1" ></div>
                 <nav>
-                  <span>Bienvenue à infinity link là où vos accès internet sont plus libre</span>
-                  <p>vous disposerez dans nos services
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ut, nulla facilis doloribus molestiae perferendis tempora impedit dignissimos ipsa, eos illum a enim, eveniet adipisci laudantium inventore distinctio cumque beatae.
-                  </p>
+                  <span>Bienvenue à infinity link là où vos accès internet sont plus libre et flexible</span>
                 </nav>
             </div>
 
           </div>
-      </div>
+     
     </div>
  
     </div>
