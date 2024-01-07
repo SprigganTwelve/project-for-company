@@ -19,8 +19,9 @@
         <div class="navbar">
             <img src="../resources/logo_v1.svg" class="logo" height="100px">
             <div class="right">
-                <div><a href="#">Home</a></div>
-                <div><a href="#">Contact</a></div>
+                <div><a href="#">Créer un compte</a></div>
+                <div><a href="#">Se connecter</a></div>
+                <div><a href="#">Contacts</a></div>
             </div>
         </div>
         <div class="content">
@@ -28,9 +29,9 @@
                 <h1> Internet Très Haut Débit</h1>
                 <p>L'internet sans limite depuis l'univers</p>
             </div>
-            <div>
-                <button type="button"> Rejoindre </button>
-                <button type="button"> En savoir plus </button>
+            <div class="options">
+                <button  type="button"> Rejoindre </button>
+                <button  type="button"> En savoir plus </button>
             </div>
         </div>
 
