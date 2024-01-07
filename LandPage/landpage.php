@@ -17,7 +17,7 @@
 <body>
     <div class="container">
         <div class="navbar">
-            <img src="../resources/logo_v1.svg" class="logo" height="100px">
+            <img src="../resources/logo_v1.svg" alt="logo ver.1" class="logo" height="150px">
             <div class="right">
                 <div><a href="#">Créer un compte</a></div>
                 <div><a href="#">Se connecter</a></div>
@@ -30,11 +30,17 @@
                 <p>L'internet sans limite depuis l'univers</p>
             </div>
             <div class="options">
-                <button  type="button"> Rejoindre </button>
-                <button  type="button"> En savoir plus </button>
+                <button type="button"> Rejoindre </button>
+                <button type="button"> En savoir plus </button>
             </div>
         </div>
-
+        <div class="contacts">
+            <hr class="social-networks">
+            </hr>
+            <img src="../resources/logo_v2.svg" alt="logo ver.2" height="150px">
+            <div class="copyright">2024 © Infinity Link. Tous droits réservés.</div>
+            <div class="address">456, Avenue de la Connectivité, Cité Virtuelle</div>
+        </div>
     </div>
 
 </body>
