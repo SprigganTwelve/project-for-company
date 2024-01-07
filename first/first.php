@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,23 +9,25 @@
     <link rel="stylesheet" href="CSS 3 Site Web.css">
 </head>
 <body>
-    <div class="banner">
-        <div class="navbar">
+    <div class="container">
+        <div class="first">
             <img src="Infinit.png" class="logo">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="content">
-            <h1> Internet Très Haut Débit</h1>
-            <p>L'internet sans limite depuis l'univers</p>
+        <div class="second">
             <div>
-                <button type="button"><span></span> Rejoindre </button>
-                <button type="button"><span></span> En savoir plus </button>
+                    <h1> Internet Très Haut Débit</h1>
+                    <p>L'internet sans limite depuis l'univers</p>
+            </div>
+            <div>
+                <button type="button">  Rejoindre </button>
+                <button type="button"> En savoir plus </button>
             </div>
         </div>
-
+                  
     </div>
     
 </body>
