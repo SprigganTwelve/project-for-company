@@ -9,7 +9,7 @@ $id = $_SESSION['user_id'];
  $dataImage = $dataBase->query("select * from information where id=$id");
  $dataImage = $dataImage->fetch(PDO::FETCH_ASSOC);
  $imageName = $dataImage['image'];
- $name = $dataImage['name'].$dataImage['firstName']
+ $name = $dataImage['name']." ".$dataImage['firstName']
 
 ?>
 
@@ -25,12 +25,11 @@ $id = $_SESSION['user_id'];
   </head>
   <body>
 
-    <div class="moveImage">
-      
-
+  
+    
         <img src="../resources/headersatellites-2880x1440-1.jpg">
    
-    </div>
+    
     <div class="container">
       <div class="slider">
           <div id="setimage">

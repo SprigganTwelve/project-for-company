@@ -1,7 +1,8 @@
-body {
-  margin: 0px;
+* {
   padding: 0px;
+  margin: 0px;
 }
+
 #setimage {
   display: flex;
   flex-direction: column;
@@ -178,15 +179,20 @@ h1 {
 .componement > div > img {
   height: 200px;
 }
-.moveImage {
-  position: absolute;
-}
-
-img {
-  height: 100vh;
-  opacity: 0.97;
-}
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+body > img {
+  position: fixed;
+}
+
+@media screen and (max-width: 100vh) {
+  .container {
+    height: 100%;
+  }
+  .componement {
+    height: 100%;
+  }
 }
