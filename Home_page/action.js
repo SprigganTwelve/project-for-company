@@ -68,7 +68,7 @@ product.addEventListener("click", () => {
 
               <div class="other">
       
-              <button class="direct"><a href="index.html">spécification</a></button>
+              <button class="direct"><a href="../specification/index.html">spécification</a></button>
                 
               </div>
 
@@ -93,7 +93,8 @@ product.addEventListener("click", () => {
 
               <div class="other">
   
-              <button class="direct"><a href="index.html">spécification</a></button>
+              <button class="direct"><a href="../specification/index.html">spécification</a></button>
+                
               </div>
 
   </div>
@@ -118,8 +119,8 @@ product.addEventListener("click", () => {
 
                 <div class="other">
               
-                <button class="direct"><a href="index.html">spécification</a></button>
-            
+                <button class="direct"><a href="../specification/index.html">spécification</a></button>
+                
               </div>
 
   </div>
