@@ -11,8 +11,11 @@ session_start();
     <title>Connexion</title>
   </head>
   <body>
+
+    
     <div class="container">
-      <span> Infinty Link</span>
+      <span> Link Infint</span>
+      <div class="loader"></div>
       <div class="connexion">
         <h1>Connexion</h1>
         <div class="inputspace">
@@ -52,6 +55,7 @@ session_start();
       }
       }
       ?>
+      <script src="loader.js"></script>
   </body>
 </html>
 

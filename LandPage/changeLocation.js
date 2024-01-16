@@ -6,3 +6,10 @@ join.addEventListener("click", () => {
 more.addEventListener("click", () => {
   window.location.assign("../Presentation/index.html");
 });
+
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+  setTimeout(() => {
+    loader.classList.add("loader-hidden");
+  }, 1500);
+});

@@ -6,10 +6,14 @@
     <title>Produits</title>
 </head>
 <body>
-    <div class="container">
-        <div><img src="../resources/logo_v1.svg" alt="logo ver.1" height="200px" id="logo" ></div>
-        <span>Produits</span>
+ 
+    
+  
+    <div class="cover">
 
+       <div><img src="../resources/headersatellites-2880x1440-1.jpg" alt="" class="image"></div>
+       <div><img src="../resources/logo_v1.svg" alt="logo ver.1" height="200px" id="logo" ></div>
+        <span>Produits</span>
 
 
         <div class="items">
@@ -21,9 +25,10 @@
 
             <div class=" el">
             
-                <div class="first">Haute performance</div>
+                <div class="first">Faible performance</div>
                 <div class="second"><img src="setimage" alt="">set image</div>
-            <div class="third">
+                <div class="third">
+
                                 <ul>
                                     <li>Débit ascendant : 60-120 Mbtis</li>
                                     <li>Débit descendant :120 Mbits/s</li>
@@ -35,8 +40,9 @@
                                 </ul>
                                 <span>Prix ... </span>
                             <button>Buy</button>
-                                </div>
-            </div>
+                                
+                </div>
+
             </div>
 
                
@@ -44,8 +50,8 @@
 
         <div class="items">
 
-         <p>
-            Le kit de haute performance à été conçu pour répondre à des besoin plus important de connexion internet,<br>
+                <p>
+                  Le kit de haute performance à été conçu pour répondre à des besoin plus important de connexion internet,<br>
                     c'est un kit adapter à des utilisations d'entreprises.<br />
                     vous avez à votre disposition selon les niveaux de performance les differentes caracteistiques<br /> 
                     des produits  de cette catégorie
@@ -53,9 +59,10 @@
 
             <div class=" el">
 
-                <div class="first">Faible performance</div>
+                <div class="first">Haute performance</div>
                 <div class="second"><img src="setimage" alt=""></div>
-            <div class="third">
+                <div class="third">
+
                                 <ul>
                                     <li>Débit ascendant : 100-220 Mbtis</li>
                                     <li>Débit descendant :50 Mbits/s</li>
@@ -67,8 +74,9 @@
                                 </ul>
                             <span>Prix ... </span>
                             <button>Buy</button>
-                                </div>
-            </div>
+                </div>   
+                            
+             </div>
   
 
         </div>
@@ -77,17 +85,17 @@
 
 
         <div class="items">
-            <p>
-        le kit de haute performance mobile comme  son nom l'indique est tout simplement un kit de <br/> haute performance mais mobile <br />
-        donc avec des conditions adapté pour le  déplacemennt. <br /> Précisement les caracteristique de cet appareils sont : 
-            </p>
+                    <p>
+                le kit de haute performance mobile comme  son nom l'indique est un kit de <br/> haute performance mais mobile <br />
+                donc avec des conditions adapté pour le  déplacemennt. <br /> Précisement les caracteristique de cet appareils sont : 
+                    </p>
             <div class=" el">
 
 
                 <div class="first">Haute  performance mobile</div>
                 <div class="second"><img src="setimage" alt=""></div>
-            <div class="third">
-            <ul>
+                <div class="third">
+                                <ul>
                                     <li>Débit ascendant : 100-220 Mbtis</li>
                                     <li>Débit descendant :50 Mbits/s</li>
                                     <li>Latence : 25-60ms</li>
@@ -100,7 +108,8 @@
                                 </ul>
                                 <span>Prix ... </span>
                             <button>Buy</button>
-                                </div>
+                </div>
+
             </div>
       
 

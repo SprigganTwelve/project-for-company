@@ -5,6 +5,47 @@
   text-decoration: none;
 }
 
+/*loader*/
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.75s visibility 0.75s;
+  width: 100vw;
+  height: 100vh;
+  background: #1d2733;
+  z-index: 455;
+}
+.loader-hidden {
+  opacity: hidden;
+  visibility: hidden;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: blue;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+/* ------ */
+
 .container {
   width: 100%;
   height: 100vh;

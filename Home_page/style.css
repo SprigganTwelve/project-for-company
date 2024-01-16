@@ -1,7 +1,31 @@
+body {
+}
+
 * {
   padding: 0px;
   margin: 0px;
 }
+
+.componement {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../resources/headersatellites-2880x1440-1.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+.componement > div > img {
+  height: 200px;
+}
+
+/*base */
 
 #setimage {
   display: flex;
@@ -16,7 +40,9 @@
   height: 126px;
 }
 
-/*.loader {
+/*loader*/
+
+.loader {
   position: fixed;
   top: 0;
   left: 0;
@@ -27,6 +53,7 @@
   width: 100vw;
   height: 100vh;
   background: #1d2733;
+  z-index: 455;
 }
 .loader-hidden {
   opacity: hidden;
@@ -51,15 +78,17 @@
   border-radius: 50%;
   animation: loading 0.75s ease infinite;
 }
-*/
+
+/* ------ */
+
 .container {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   height: 100vh;
-  overflow: hidden;
   color: white;
   background-attachment: static;
+  font-family: "Poppins", sans-serif;
 }
 
 .material-symbols-outlined {
@@ -68,10 +97,10 @@
 
 .slider {
   border-right: 5px solid #1a1c29;
-  height: 100%;
+  border: whitesmoke;
   position: relative;
   transition: all 1s;
-  background: transparent;
+  background: black;
 }
 
 .slider * {
@@ -118,6 +147,8 @@
   justify-content: space-evenly;
   height: 70px;
   font-size: 30px;
+  position: fixed;
+  z-index: 34;
 }
 
 #currentOption {
@@ -126,6 +157,8 @@
   right: 0;
   opacity: 40%;
   border-radius: 10px;
+  position: fixed;
+  z-index: 34;
 }
 #currentOption span {
   font-size: 90px;
@@ -150,6 +183,8 @@ section:hover {
   font-size: 23px;
   background-size: cover;
   height: 100vh;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -165,34 +200,311 @@ h1 {
   font-size: 30px;
   background: #1a1c29;
   left: 0px;
-}
-
-.componement {
-  position: absolute;
-  bottom: 30%;
-  text-align: center;
-  margin-left: 40px;
-  font-size: 70px;
-  font-family: "Poppins", sans-serif;
-  color: whitesmoke;
-}
-.componement > div > img {
-  height: 200px;
+  height: auto;
 }
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
-body > img {
-  position: fixed;
+@keyframes displ {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 100vh) {
   .container {
     height: 100%;
   }
-  .componement {
+  .container {
     height: 100%;
   }
+}
+
+/*Product*/
+
+.buy .One img {
+  height: 400px;
+}
+
+.buy .One span {
+  font-size: 80px;
+  color: black;
+  background-size: cover;
+}
+
+.buy {
+  background: url(../resources/Take.jpg);
+  display: flex;
+  flex-direction: column;
+  gap: 170px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.buy .contain {
+  position: relative;
+  height: 700px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: 10px 10px 6px #b0cbd2;
+  font-size: 30px;
+}
+
+.buy .One {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buy .contain .sales {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  box-shadow: 10px 10px 6px #b0cbd2;
+}
+
+.buy .contain .sales .add {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 30px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 15px;
+}
+
+.buy .contain .other {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.buy .contain .other button {
+  margin: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 15px;
+}
+
+.buy button:hover {
+  background: yellow;
+  color: black;
+}
+
+.buy .kitO {
+  background: url(../resources/Installation-antenne-parabolle-antenniste-Caen-Deauville.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.buy .kitO::before {
+  content: "Kit standard";
+  position: absolute;
+  background-color: yellow;
+  color: black;
+  font-size: 30px;
+  border-radius: 0% 100% 100% 0% / 1% 0% 100% 99%;
+  padding: 40px;
+  margin: 10px;
+  top: 0;
+  left: 0;
+}
+
+.buy .kitS {
+  background: url(../resources/Entreprise1.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.buy .kitS {
+  background: url(../resources/Entreprise1.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.buy .kitS::before {
+  content: "Kit de haute performance";
+  position: absolute;
+  background-color: yellow;
+  color: black;
+  font-size: 30px;
+  border-radius: 0% 100% 100% 0% / 1% 0% 100% 99%;
+  padding-right: 85px;
+  padding: 20px;
+  margin: 10px;
+  top: 0;
+  left: 0;
+}
+
+.buy .kitThird {
+  background: url(../resources/baggage-allowance.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.buy .kitThird::before {
+  content: "Kit de haute performance mobile";
+  position: absolute;
+  background-color: yellow;
+  color: black;
+  font-size: 30px;
+  border-radius: 0% 100% 100% 0% / 1% 0% 100% 99%;
+  padding: 20px;
+  padding-right: 85px;
+  margin: 10px;
+  top: 0;
+  left: 0;
+}
+
+#kitStandardImg {
+  background: url(../resources/kitstandard.jpeg);
+}
+
+/*Abonnement*/
+
+.Subscription > img {
+  height: 100px;
+}
+
+.Subscription {
+  color: black;
+
+  font-family: "Poppins", sans-serif;
+}
+
+#Abn {
+  font-size: 70px;
+  padding-left: 80px;
+  background-color: #1a1c29;
+  color: white;
+}
+
+.Subscription .offer {
+  display: flex;
+
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Subscription .offer .subscription {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  box-shadow: 10px 9px 4px 7px black;
+}
+
+.Subscription .offer .subscription .title {
+  margin: 30;
+  font-size: 40px;
+}
+
+.Subscription .offer .subscription > div > .material-symbols-outlined {
+  background-color: green;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+}
+
+.Subscription .offer .subscription .Choice {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  bottom: 0;
+  margin: 30px;
+  margin-left: 90px;
+}
+
+.Subscription .offer .subscription .Choice button {
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+  outline: none;
+}
+
+.Subscription .offer .subscription .Choice #prix {
+  box-shadow: 10px 9px 4px 7px whitesmoke;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.Subscription .offer .subscription .Choice button:hover {
+  background: yellow;
+  color: black;
+}
+
+/*contact*/
+
+.touch {
+  color: black;
+}
+.touch .Cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 30vh;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.touch .Cnt .call {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  justify-content: center;
+  height: max-content;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.touch > div > span {
+  margin-left: 299px;
+  font-size: 70px;
+  color: whitesmoke;
+}
+
+.touch .topCnt {
+  background-color: black;
+}
+
+.touch .Cnt #contact p {
+  margin: 30px;
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+.touch .Cnt .call .callService {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.touch .Cnt .call .callService > span {
+  font-size: 40px;
+}
+
+.touch {
+  background: url(../resources/externalisation-d’un-accueil-téléphonique2.jpg);
 }

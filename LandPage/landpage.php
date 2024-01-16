@@ -25,6 +25,7 @@
             </div>
         </div>
         <div class="content">
+            <div class="loader"></div>
             <div>
                 <h1> Internet Très Haut Débit</h1>
                 <p>L'internet sans limite depuis l'univers</p>
@@ -40,7 +41,7 @@
                 <a href="#" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-youtube"></a>
                 <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://www.linkedin.com/in/link-infinit-5283062aa/" class="fa fa-linkedin"></a>
             </div>
             <img src="../resources/logo_v2.svg" alt="logo ver.2" height="70px">
             <div class="details">
