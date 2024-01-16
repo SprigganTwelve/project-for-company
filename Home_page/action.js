@@ -4,6 +4,7 @@ var sliderElements = document.querySelectorAll(".slider *");
 var composant = document.querySelector(".componement");
 var product = document.querySelector(".Product");
 var Acceuil = document.querySelector("#acc");
+var currentOption = document.querySelector("#currentOption");
 
 /*var image = document.querySelector("#view");*/
 
@@ -26,6 +27,11 @@ menuBtn.addEventListener("click", () => {
 Acceuil.addEventListener("click", () => {
   composant.classList.remove("buy", "Subscription", "touch");
   composant.classList.add("componement");
+
+  currentOption.innerHTML = `<span class="material-symbols-outlined">
+home
+</span> `;
+
   composant.innerHTML = ` 
   <div><img src="../resources/logo_v1.svg" alt="logo ver.1" ></div>
   <nav>
@@ -41,6 +47,11 @@ Acceuil.addEventListener("click", () => {
 product.addEventListener("click", () => {
   composant.classList.remove("touch", "Subscription", "componement");
   composant.classList.add("buy");
+
+  currentOption.innerHTML = `<span class="material-symbols-outlined">
+  inventory_2
+  </span>`;
+
   composant.innerHTML = `
 
 
@@ -141,6 +152,11 @@ product.addEventListener("click", () => {
 subscription.addEventListener("click", () => {
   composant.classList.remove("touch", "buy", "componement");
   composant.classList.add("Subscription");
+
+  currentOption.innerHTML = `<span class="material-symbols-outlined">
+  subscriptions
+  </span>`;
+
   composant.innerHTML = `  <div id="Abn">
   <span>Abonnement</span>
 </div>
@@ -279,6 +295,9 @@ touch.addEventListener("click", () => {
   composant.classList.remove("buy", "Subscription", "componement");
   composant.classList.remove();
   composant.classList.add("touch");
+  currentOption.innerHTML = `<span class="material-symbols-outlined">
+  call_end
+  </span>`;
   composant.innerHTML = `
 
   <div class="topCnt"><span>Contact</span></div>

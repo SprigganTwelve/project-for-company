@@ -1,6 +1,6 @@
 body {
+  background-color: black;
 }
-
 * {
   padding: 0px;
   margin: 0px;
@@ -387,7 +387,7 @@ h1 {
 
 .Subscription {
   color: black;
-
+  background-color: white;
   font-family: "Poppins", sans-serif;
 }
 
