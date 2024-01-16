@@ -68,7 +68,7 @@ product.addEventListener("click", () => {
 
               <div class="other">
       
-                  <button>spécification</button>
+              <button class="direct"><a href="index.html">spécification</a></button>
                 
               </div>
 
@@ -93,7 +93,7 @@ product.addEventListener("click", () => {
 
               <div class="other">
   
-                  <button>spécification</button>
+              <button class="direct"><a href="index.html">spécification</a></button>
               </div>
 
   </div>
@@ -118,7 +118,7 @@ product.addEventListener("click", () => {
 
                 <div class="other">
               
-                  <button>spécification</button>
+                <button class="direct"><a href="index.html">spécification</a></button>
             
               </div>
 
@@ -295,14 +295,14 @@ touch.addEventListener("click", () => {
               <span class="material-symbols-outlined">
                     call
               </span>
-              service téléphonique : 
+              service téléphonique : 0575225993
           </div>
 
           <div class="callService">
                 <span class="material-symbols-outlined">
                         mail
                 </span>
-                 Adresse email : 
+                 Adresse email : Arnaud@gmail.com
           </div>
       </div>
 
@@ -311,10 +311,15 @@ touch.addEventListener("click", () => {
   slider.style.display = "block";
   sliderIsOpen = true;
 });
-
+/*
 window.addEventListener("load", () => {
   const loader = document.querySelector(".loader");
   setTimeout(() => {
     loader.classList.add("loader-hidden");
   }, 1500);
+}); */
+
+var bye = document.querySelector("#go");
+bye.addEventListener("click", () => {
+  window.location.assign("../connexion/ConnectBase.php");
 });

@@ -42,6 +42,8 @@ body {
 
 /*loader*/
 
+/*
+
 .loader {
   position: fixed;
   top: 0;
@@ -78,7 +80,7 @@ body {
   border-radius: 50%;
   animation: loading 0.75s ease infinite;
 }
-
+*/
 /* ------ */
 
 .container {

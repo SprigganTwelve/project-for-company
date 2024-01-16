@@ -1,0 +1,14 @@
+#items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  font-size: 30px;
+  background: black;
+  color: white;
+  height: 100vh;
+}
+
+#items div {
+  border: 2px solid whitesmoke;
+}

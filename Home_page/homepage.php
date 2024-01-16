@@ -30,7 +30,7 @@ $id = $_SESSION['user_id'];
 
     
    
-    <div class="loader"></div>
+   
     
     <div class="container">
     
@@ -47,7 +47,7 @@ echo '<div style="background:url(image/'.$imageName.'); background-size:cover;">
           <section class="Product">Produits</section>
           <section id="CC">Contact</section>
           <section class ="sub">Abonnement</section>
-          <section>Deconnexion</section>
+          <section id="go">Deconnexion</section>
 
       </div>
   
