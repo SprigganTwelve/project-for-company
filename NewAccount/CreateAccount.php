@@ -10,11 +10,11 @@ $code='ok';
 
       if(isset($_POST['submit'])){
 
-      if(preg_match("#[A-Z][^1-9\$\.=\+_\[)(\}\{@\^\\\/!ù%\*~\:;,\#\?£]*#",$_POST['name'])){
+      if(preg_match("#[A-Z][^1-9\$\.=\+_\[)(\}\{@\^\\\/!ù%\*~\:;,\#\?£]*#", $_POST['name'])){
 
         $checkName = 'ok';
 
-          if(preg_match("#[^1-9\$\.=\+_\[)(\}\{@\^\\\/!ù%\*~\:;,\#°\?]*#",$_POST["firstName"])){
+          if(preg_match("#[^1-9\$\.=\+_\[)(\}\{@\^\\\/!ù%\*~\:;,\#°\?]*#", $_POST["firstName"])){
 
             $checkFirstName = 'ok';
 
